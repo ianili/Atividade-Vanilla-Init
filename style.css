@@ -7,6 +7,9 @@
 body {
     background: linear-gradient(-75deg, #000, #242424);
     background-size: 300% 300%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    touch-action: pan-y;
 }
 
 .menu-nav {
